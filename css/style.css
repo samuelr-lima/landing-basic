@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #131416;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    margin-top: 35px;     
+}
+
+
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+
+/*SPACE INTRODUTION*/
+
+
+.space-introdution{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.space-introdution img{
+    display: block;
+    height: 300px;
+    width: 200px;
+    margin-top: 100px;
+}
+
+.space-introdution input{
+    text-decoration: none;
+    background-color: #0772EB;
+    color: #FFF;
+    font-weight: bolder;
+    padding: 15px 40px;
+    margin-top: -120px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left:-190px ;
+    font-size: 20px;
+}
+
+.space-introdution input:hover{
+    background-color: #FFF;
+    color: #0772EB;
+}
+
+
+
+.text-introdution{
+    color: #FFF;
+    margin-left: 35px;
+    font-size: 1.6em;    
+    font-weight: bolder;
+    height: 300px;
+    margin-top: 30px;
+    line-height: 45px;
+
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+/*SPACE LEVEL*/
+
+
+.space-level{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.space-level h2{
+    color: #FFF;
+    margin-top: 150px;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    margin-bottom: 100px;
+      
+}
+
+.style-card{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 230px;
+    margin-right: 40px;
+    background-color: #1E212C;
+    align-items: center;
+    justify-content: center;    
+    border-radius: 10px;
+    cursor: pointer;
+    color: #FFF;
+    font-weight: bolder;
+    
+}
+.style-card:last-child{
+    margin: 0px;
+}
+
+.style-card:hover{
+    border-radius: 50%;
+    transition: 0.5s;
+    
+}
+
+.style-card img{
+    width: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E212C;
+    margin-bottom: 20px;
+}
+
+
+/*SPACE INFO*/
+
+
+.space-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+        
+}
+
+.space-info input{
+    color: #FFF;
+    background-color: #1E212C;
+    padding: 15px 35px;
+    font-size: 1.1em;
+    font-weight: bolder;
+    border-radius: 30px;
+    border: 0px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.space-info h1{
+    color: #0772EB;
+    font-size: 60px;
+    margin-bottom: 10px
+}
+
+.space-info h3{
+    color: #FFF;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 60px;
+}
+
+#download input{
+    text-decoration: none;
+    background-color: #0772EB;
+    color: #FFF;
+    font-weight: bolder;
+    padding: 15px 40px;
+    margin-top: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 100px;
+
+}
+
+#download input:hover{
+    background-color: #FFF;
+    color: #0772EB;
+}
+
+
+/*SPACE FOOTER*/
+
+
+.space-footer{
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    background-color: #1E212C;
+    padding-top: 65px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+
+.space-footer a{
+    text-decoration: none;
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.space-footer a:visited{
+    background-color: #1E212C;
+}
+
+
+@media (max-width: 800px ){
+
+.space-introdution{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+
+}
+
+.space-introdution img{
+    width: 250px;
+    height: 350px;
+}
+
+
+.space-introdution input{
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    margin-top: -100px;
+}
+
+.text{
+    margin-top: 100px;
+    font-size: 12px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+             
+}
+
+.style-card{
+    margin-bottom: 40px;
+}
+
+.space-info h1{
+    font-size: 30px;
+}
+
+.text-introdution{
+    font-size: 1.3em;
+    margin: auto;
+
+}
+
+.space-level h2{
+    font-size: 1.5em;
+}
+
+.style-card{
+    margin: 0px;
+    margin-bottom: 15px
+}
+
+.space-footer{
+    padding-top: 30px;
+    height: 50px;
+    font-size: 15px;
+    
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
